@@ -1,0 +1,46 @@
+#title{
+  text-align: center;
+}
+body{
+  background: #556791;
+}
+
+.App{
+  background-color: #e2b27e;
+  height: 600px;
+  width:500px;
+  border-style: solid;
+  border-radius: 1rem;
+  border-color: white;
+margin:50px auto
+
+
+}
+
+#todo input{
+  background-color: white;
+  border:0px;
+  width: 18rem;
+  height: 2rem;
+  margin: 3rem;
+  padding:0 20px;
+  border-radius:10px;
+}
+#todo input::placeholder{
+  color: black;
+
+}
+
+#todo button{
+  width:4rem;
+  height: 2.2rem;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #556791;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+
+
+}
